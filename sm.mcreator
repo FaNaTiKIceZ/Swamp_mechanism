@@ -1,0 +1,73 @@
+{
+  "mod_elements": [
+    {
+      "name": "Swampmechanisms",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swampmechanisms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/swampmechanismsforge/world/biome/SwampmechanismsBiome.java",
+          "src/main/java/net/mcreator/swampmechanismsforge/world/features/treedecorators/SwampmechanismsFruitDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Berries",
+      "type": "feature",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "berries",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/swampmechanismsforge/world/features/BerriesFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "Bunchofrocks",
+      "type": "feature",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bunchofrocks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/swampmechanismsforge/world/features/BunchofrocksFeature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.sm.swampmechanisms": "Swamp mechanisms"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sm",
+    "modName": "swamp mechanisms_forge",
+    "version": "0_alpha",
+    "author": "FaNaTiK",
+    "websiteURL": "https://mcreator.net",
+    "license": "MIT License",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.swampmechanismsforge",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300217118
+}

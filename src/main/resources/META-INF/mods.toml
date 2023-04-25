@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+
+[[mods]]
+modId="sm"
+version="0"
+displayName="swamp mechanisms_forge"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="FaNaTiK"
+
+[[dependencies.sm]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.sm]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
